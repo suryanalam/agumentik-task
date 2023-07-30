@@ -1,0 +1,58 @@
+.banner-bg{
+    height:5vh;
+    color:white;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-main-div{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.office-timings-div{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+}
+
+.office-timings-div > p{
+    font-size: 0.8rem;
+}
+
+.connect-div{
+    height: 100%;
+    display: flex;
+    gap:2.5rem;
+    align-items: center;
+}
+
+.social-media-icons-div{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.social-media-icon{
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 0.5rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.connect-div > button{
+    border:none;
+    height:100%;
+    background-color: var(--red);
+    color:white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.nav-bg{
+    width: 55%;
+    height: 8vh;
+    color: white;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: skew(45deg);
+    position: absolute;
+    top:80px;
+}
+
+.navbar-div{
+    padding-left: 2rem;
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.navbar-div a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transform: skew(-45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-right-div{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-right: 3rem;
+    transform: skew(-45deg);
+}
+
+.nav-right-div hr{
+    height: 1.5rem;
+    width: 1px;
+    background-color: white;
+    border: none;
+}
+
+.search-icon, .apps-icon{
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+

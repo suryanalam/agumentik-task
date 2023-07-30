@@ -1,0 +1,114 @@
+.hero-bg{
+    height: 80vh;
+    background-image: url('./../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-div{
+    width:40%;
+    height:100%;    
+}
+
+.hero-img-div img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.hero-text-main-div{
+    width:50%;
+    height:70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-text-div{
+    width:70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.title1-div{
+    display: flex;
+    background-color: white;
+}
+
+.title1-div::after, .title1-div::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: var(--red);
+}
+
+.title1{
+    margin:1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color:var(--red);
+}
+
+.title2{
+    margin:0;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: justify;
+    text-transform: capitalize;
+    color:var(--blue);
+}
+
+.desc{
+    margin:0;
+    max-width:80%;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.cta-buttons-div{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.cta-btn1 > div{
+    display: flex;
+    align-items: center; 
+    gap:0.5rem;
+}
+
+.cta-btn1{
+    padding:0.75rem;
+    background-color: var(--red);
+    color:white;
+    border:none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cta-btn-icon{
+    font-size: 2rem;
+}
+
+.intro-div{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.intro-icon{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-right:0.5rem;
+    color:var(--red);
+}
